@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+  color: #333;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navbar Styles */
+.navbar {
+  background: #333;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 1rem;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+  color: white;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.search-bar {
+  margin-top: 1rem;
+}
+
+.search-bar input {
+  padding: 0.5rem;
+  width: 250px;
+}
+
+.search-bar button {
+  padding: 0.5rem;
+  background: #ff6f61;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Movies Section */
+.movies-section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.movie-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.movie-card {
+  background: white;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 2rem;
+  background: #333;
+  color: white;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form label {
+  display: block;
+  margin-top: 1rem;
+}
+
+form input, form textarea, form button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: none;
+  border-radius: 5px;
+}
+
+form button {
+  background: #ff6f61;
+  color: white;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
