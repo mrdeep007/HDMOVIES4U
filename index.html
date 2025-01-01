@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MovieHub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <h1 class="logo">🎥 MovieHub</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#movies">Movies</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h2>Welcome to MovieHub</h2>
+    <p>Discover the latest movies and explore your favorites!</p>
+    <div class="search-bar">
+      <input type="text" id="search-input" placeholder="Search for movies...">
+      <button id="search-button">Search</button>
+    </div>
+  </section>
+
+  <!-- Movies Section -->
+  <section id="movies" class="movies-section">
+    <h2>Latest Movies</h2>
+    <div class="movie-grid">
+      <!-- Movie Cards -->
+      <div class="movie-card">
+        <img src="https://via.placeholder.com/150" alt="Movie Poster">
+        <h3>Movie Title</h3>
+        <p>Release Date: 2025-01-01</p>
+      </div>
+      <div class="movie-card">
+        <img src="https://via.placeholder.com/150" alt="Movie Poster">
+        <h3>Another Movie</h3>
+        <p>Release Date: 2024-12-15</p>
+      </div>
+      <!-- Add more movie cards here -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 MovieHub. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
